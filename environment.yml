@@ -1,0 +1,10 @@
+# Conda environment equivalent to requirements.txt (pip packages installed by conda).
+# Create with: conda env create -f environment.yml
+name: qiskit-hackathon
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt

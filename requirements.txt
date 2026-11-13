@@ -1,0 +1,9 @@
+# Participant environment for the Qiskit Quantum Hackathon notebooks.
+# Tested with Python 3.11.15 on Linux.
+qiskit==2.6.1
+qiskit-aer==0.18.2
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+ipykernel==7.4.0
+jupyterlab==4.6.5
